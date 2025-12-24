@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Rubik} from "next/font/google";
 import "./globals.css";
+import WrapperNav from "@/components/Home/Navbar/WrapperNav";
 
 const font =  Rubik({
   subsets: ["latin"],
@@ -22,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${font.className} antialiased`}
       >
-        
+        <WrapperNav/>
         {children}
         
       </body>
