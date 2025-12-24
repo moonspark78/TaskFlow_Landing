@@ -1,8 +1,12 @@
-import React from 'react'
+import Nav from './Nav'
+import MobileNav from './MobileNav'
 
 const WrapperNav = () => {
   return (
-    <div>WrapperNav</div>
+    <div>
+        <Nav/>
+        <MobileNav/>
+    </div>
   )
 }
 
