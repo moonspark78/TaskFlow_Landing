@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div></div>
+    <div className='transition-all duration-200'></div>
   )
 }
 
